@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+C:\Users\Admin\source\repos\FileExchange\FileExchange\MyForm.h(262,13): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Source.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  FileExchange.vcxproj -> C:\Users\Admin\source\repos\FileExchange\x64\Debug\FileExchange.exe

@@ -1,0 +1,4 @@
+C:\Users\Admin\source\repos\FileExchange\FileExchange\x64\Debug\FileExchange.vcxproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\FileExchange\FileExchange\x64\Debug\FileExchange.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\FileExchange\FileExchange\x64\Debug\FileExchange.MyForm.resources
+C:\Users\Admin\source\repos\FileExchange\FileExchange\x64\Debug\FileExchange.vcxproj.GenerateResource.cache
