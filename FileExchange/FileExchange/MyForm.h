@@ -260,10 +260,28 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	String^ entry_name = name;
 	time_t now = time(0);
 	char* dt = ctime(&now);
-	String^ status = "Сформировано";
+	String^ status = "Готово";
 	String^	fib= "-";
+	int a = 0, b = 1, c = 0, i = 3;
+	c = a + b;
+	if (Convert::ToInt64(kol) == 1 || Convert::ToInt64(kol) == 2)
+	{
+		fib = Convert::ToString(0);
+	}
+	else
+	{
+		c = a + b;
+		while (i < Convert::ToInt64(kol))
+		{
+			i++;
+			a = c;
+			c += b;
+			b = a;
+		}
+	}
+	fib = Convert::ToString(c);
 	String^ entry;
-	entry = "Заявка №" + entry_name + "          " + Convert::ToString(&now) + "                 " + status + "                  " + "№" + kol + "                 " + fib;
+	entry = "Заявка №" + entry_name + "          " + Convert::ToString(now) + "                 " + status + "                  " + "№" + kol + "                 " + fib;
 	listBox1->Items->Add(entry);
 }
 private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
